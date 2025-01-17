@@ -3626,6 +3626,10 @@ input, select, textarea {
 
 	}
 
+	#wrapper .inner .content p {
+		font-size: 0.7em;
+	}
+
 	.wrapper {
 		background-color: #2e3141;
 		margin: 6.5em 0;
