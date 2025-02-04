@@ -1848,6 +1848,7 @@ img.post-image {
   display: flex;
   width: 100%;
   justify-content: center;
+  align-items: center;
 }
 
 .main-slider .banner-content {
