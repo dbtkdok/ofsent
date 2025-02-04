@@ -1868,12 +1868,10 @@ img.post-image {
 }
 
 .banner-video {
-  
-position: absolute;
-  
-width: 100%;
-  
-opacity: 0.15;
+  position: absolute;
+  width: 100%;
+  opacity: 0.15;
+  object-fit: cover;
 }
 
 #billboard .slick-dots {
