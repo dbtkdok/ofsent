@@ -2094,7 +2094,7 @@ img.books-image {
 /*----- Special Offer Section
 --------------------------------------------------------------*/
 #special-offer .section-header {
-  background: #dfd3c338;
+  /* background: #dfd3c338; */
   padding: 140px 0 220px;
   margin-bottom: -141px;
   z-index: -1;
