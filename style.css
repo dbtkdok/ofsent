@@ -1873,8 +1873,6 @@ position: absolute;
   
 width: 100%;
   
-top: 0;
-  
 opacity: 0.15;
 }
 
@@ -1927,7 +1925,7 @@ opacity: 0.15;
 
 @media screen and (max-width: 999px) {
   .banner-content h2.banner-title {
-    font-size: 3.5em;
+    font-size: 2.0em;
   }
 
   #billboard .main-slider {

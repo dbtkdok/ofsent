@@ -637,4 +637,8 @@ body.chocolat-open > .chocolat-image-wrapper {
     {
         min-width: 50%;
     }
+
+    .banner-video {
+        height: 100%;
+    }
 }
