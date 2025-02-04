@@ -1590,7 +1590,7 @@ button {
   position: relative;
 }
 
-.section-title {
+.section-title, .section-title2 {
   font-size: 3em;
   font-weight: 500;
   line-height: 1;
@@ -1598,11 +1598,11 @@ button {
   margin-bottom: 35px;
 }
 
-.section-title.divider {
+.section-title.divider, .section-title2.divider {
   width: 100%;
 }
 
-.section-title.divider:after {
+.section-title.divider:after, .section-title2.divider:after {
   content: "";
   border-bottom: 3px solid #74642F;
   position: absolute;
@@ -1612,8 +1612,8 @@ button {
   width: 50px;
 }
 
-.section-header .section-title:before,
-.section-header .section-title:after {
+.section-header .section-title:before,.section-header .section-title2:before,
+.section-header .section-title:after, .section-header .section-title2:after {
   content: "";
   border-bottom: 1px solid #E0E0E0;
   position: absolute;
@@ -1622,11 +1622,11 @@ button {
   align-items: center;
 }
 
-.section-header .section-title:before {
+.section-header .section-title:before, .section-header .section-title2:before {
   left: 3px;
 }
 
-.section-header .section-title:after {
+.section-header .section-title:after, .section-header .section-title2:after {
   right: 3px;
 }
 
@@ -1639,16 +1639,16 @@ button {
 
 @media screen and (max-width: 1366px) {
 
-  .section-header .section-title:before,
-  .section-header .section-title:after {
+  .section-header .section-title:before,.section-header .section-title2:before,
+  .section-header .section-title:after, .section-header .section-title2:after {
     width: 30%;
   }
 }
 
 @media screen and (max-width: 999px) {
 
-  .section-header .section-title:before,
-  .section-header .section-title:after {
+  .section-header .section-title:before,.section-header .section-title2:before,
+  .section-header .section-title:after, .section-header .section-title2:after {
     width: 25%;
   }
 }
@@ -1870,6 +1870,7 @@ img.post-image {
 .banner-video {
   position: absolute;
   width: 100%;
+  max-height: 900px;
   opacity: 0.15;
   object-fit: cover;
 }
@@ -2006,6 +2007,10 @@ img.post-image {
   }
 }
 
+#special-offer {    
+  padding: 120px 0;
+}
+
 /*----- Popular Books Section
 --------------------------------------------------------------*/
 .tab-content {
@@ -2101,6 +2106,11 @@ img.books-image {
 #special-offer .section-title {
   width: 70%;
   margin: 0 auto;
+}
+
+#special-offer .section-title2 {
+  width: 70%;
+  white-space: nowrap;
 }
 
 span.prev-price {
@@ -2208,8 +2218,7 @@ span.prev-price {
 
 /*----- Latest Blog Section
 --------------------------------------------------------------*/
-#latest-blog {
-}
+#latest-blog {background: #dfd3c338;}
 
 #latest-blog article.column {
   margin-bottom: 60px;
@@ -2444,6 +2453,10 @@ footer#footer {
   .products-grid.col-5 .product-style {
     width: 100%;
   }
+}
+
+.itme_p_desp {
+  margin-bottom: 1.0rem;
 }
 
 @media screen and (max-width: 575px) {
