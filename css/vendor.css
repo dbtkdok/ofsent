@@ -640,5 +640,6 @@ body.chocolat-open > .chocolat-image-wrapper {
 
     .banner-video {
         height: 100%;
+        object-fit: cover;
     }
 }
