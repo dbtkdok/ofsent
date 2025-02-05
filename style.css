@@ -2162,6 +2162,10 @@ span.prev-price {
     width: 90%;
   }
 
+ .section-title, .section-title2 {
+    font-size: 2em;
+  }
+
   #subscribe .subscribe-content input[type="text"] {
     width: 100%;
   }
