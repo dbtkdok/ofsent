@@ -1657,7 +1657,11 @@ button {
 
 @media screen and (max-width: 768px) {
   .section-title {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+
+  #quotation q {
+    font-size: 1.0em !important;!i;!;
   }
 
   .section-header .section-title:before,
@@ -2162,9 +2166,7 @@ span.prev-price {
     width: 90%;
   }
 
- .section-title, .section-title2 {
-    font-size: 2em;
-  }
+ 
 
   #subscribe .subscribe-content input[type="text"] {
     width: 100%;
